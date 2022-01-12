@@ -41,10 +41,10 @@ Node.js is a powerful tool for controlling servers, building web applications, a
   - => [ask.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/ask.js), [questions2.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/questions2.js)
 - module.exports: https://nodejs.org/api/modules.html#moduleexports
   - => [myModule.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/myModule.js) & [app.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/app.js)
-  - => [questions3.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/questions3.js) & ./lib/collectAnswers.js (how to make the done CB optional)
+  - => [questions3.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/questions3.js) & [./lib/collectAnswers.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/lib/collectAnswers.js) (how to make the done CB optional)
 - Event emitter: https://nodejs.org/api/events.html
   => [events.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/events.js)
-  => [questions4.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/questions4.js) & ./lib/collectAnswers4.js
+  => [questions4.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/questions4.js) & [./lib/collectAnswers4.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/lib/collectAnswers4.js)
 
 ## Chapter 5 - File System Basics
 
