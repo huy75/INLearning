@@ -19,15 +19,15 @@ Node.js is a powerful tool for controlling servers, building web applications, a
 
 - Global objects https://nodejs.org/api/globals.html
 - Path https://nodejs.org/api/path.html
-  - => globals.js
+  - => [globals.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap3/globals.js)
 - Process https://nodejs.org/api/process.html
   - argv https://nodejs.org/api/process.html#processargv
-  - => globalProcess.js
+  - => [globalProcess.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap3/globalProcess.js)
   - stdin https://nodejs.org/api/process.html#processstdin
   - stdout https://nodejs.org/api/process.html#processstdout
-  - => questions.js
+  - => [questions.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap3/questions.js)
   - timers https://nodejs.org/api/timers.html
-  - => timers.js
+  - => [timers.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap3/timers.js)
 
 ## Chapter 4 - Node Module
 
@@ -35,16 +35,16 @@ Node.js is a powerful tool for controlling servers, building web applications, a
   - Core modules: https://nodejs.org/api/modules.html#core-modules
     (http, url, querystring, path, fs, util...)
     we have to require the utilities modules
-    - => core.js
+  - => [core.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/core.js)
 - Readline: https://nodejs.org/api/readline.html
   prompt the user and collect their answers
-  - => ask.js, questions2.js
+  - => [ask.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/ask.js), [questions2.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/questions2.js)
 - module.exports: https://nodejs.org/api/modules.html#moduleexports
-  - => myModule.js & app.js
-  - => questions3.js & ./lib/collectAnswers.js (how to make the done CB optional)
+  - => [myModule.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/myModule.js) & [app.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/app.js)
+  - => [questions3.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/questions3.js) & ./lib/collectAnswers.js (how to make the done CB optional)
 - Event emitter: https://nodejs.org/api/events.html
-  => events.js
-  => questions4.js & ./lib/collectAnswers4.js
+  => [events.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/events.js)
+  => [questions4.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap4/questions4.js) & ./lib/collectAnswers4.js
 
 ## Chapter 5 - File System Basics
 
@@ -52,20 +52,20 @@ Node.js is a powerful tool for controlling servers, building web applications, a
   a module that allows to interact with the file system
   can be used to list files in directories, create new files in directories,
   stream files, watch files, modify file permissions ...
-  - readdir => lists.js
-  - readFile => readFile.js
-  - writeFile => writeFile.js
-  - mkdir => directory.js
-  - appendFile => append.js
-  - renameFile & deleteFile => rename.js
-  - renameDir & deleteDir => directories.js
+  - readdir => [lists.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap5/lists.js)
+  - readFile => [readFile.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap5/readFile.js)
+  - writeFile => [writeFile.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap5/writeFile.js)
+  - mkdir => [directory.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap5/directory.js)
+  - appendFile => [append.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap5/append.js)
+  - renameFile & deleteFile => [rename.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap5/rename.js)
+  - renameDir & deleteDir => [directories.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap5/directories.js)
 
 ## Chapter 6 - Files and Streams
 
-- Readable file streams => readStream.js
-- Writable file streams => writeStream.js
+- Readable file streams => [readStream.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap6/readStream.js)
+- Writable file streams => [writeStream.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap6/writeStream.js)
 - Create child process: https://nodejs.org/api/child_process.html
-  - exec: exec.js
-  - spawn: spawn.js
+  - exec: [exec.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap6/exec.js)
+  - spawn: [spawn.js](https://github.com/huy75/INLearning/blob/main/Nodejs-essential/chap6/spawn.js)
 
 # Alex Banks
